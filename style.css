@@ -4,18 +4,63 @@
 全体
 ====================================*/
 p {
-  font-size: 10px;
+  font-size: 13px;
   color: #654;
+  line-height: 30px;
+}
+
+main {
+  margin: 1rem;
+}
+
+hr {
+  margin: 0 2rem;
+}
+
+img {
+  max-width: 320px;
+  max-height: auto;
+  border-radius: 10px;
 }
 
 /*
-見出し
+header
 =====================================*/
+.site-name {
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  background-color: #987;
+  padding: 7px;
+}
+
+/*
+main
+======================================*/
+.detail {
+  background-color: antiquewhite;
+  margin: 2.5rem 0;
+  padding: 0px 5px;
+  border-radius: 16px;
+}
+
+.detail p {
+  padding: 0.5rem;
+}
+
+.title {
+  text-decoration: underline;
+}
+
 .pos-left {
   text-align: left;
 }
 
-.details {
+.cafe-description {
+  padding: 1rem;
+}
+
+.cafe-content {
+  margin-bottom: 2rem;
 }
 
 .pos-center {
@@ -31,4 +76,9 @@ cafe
 
 .cafe-name {
   text-align: center;
+}
+
+.cafe-img {
+  display: flex;
+  justify-content: center;
 }
