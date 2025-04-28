@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*
+全体
+====================================*/
+p {
+  font-size: 10px;
+  color: #654;
+}
+
+/*
+見出し
+=====================================*/
+.pos-left {
+  text-align: left;
+}
+
+.details {
+}
+
+.pos-center {
+  text-align: center;
+}
+
+/*
+cafe
+===================================*/
+.cafe-content {
+  margin: 40rem, 40rem;
+}
+
+.cafe-name {
+  text-align: center;
+}
